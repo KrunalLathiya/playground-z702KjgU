@@ -2,7 +2,7 @@ import React from 'react';
 import FormCode from './FormCode';
 
 class App extends React.Component {
-  submit = (values) => {
+  submit(values) {
     alert("submitted");
     console.log(values);
   }
