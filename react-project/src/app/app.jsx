@@ -1,20 +1,20 @@
 import React from 'react';
-import './app.css';
-import logo from './logo_og.png';
+import FormCode from './FormCode';
 
-export default class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: `[TECH.IO] React template`
-        };
-    }
-    render() {
-        return (<div>
-            <img className='logo' src={logo}></img>
-            <h1 className='title'>
-                {this.state.title}
-            </h1>
-        </div>);
-    }
+class App extends React.Component {
+  submit = (values) => {
+    alert("submitted");
+    console.log(values);
+  }
+  render() {
+    return (
+      <div className="container">
+        <h3 className="jumbotron">Redux Form Validation</h3>
+        <FormCode onSubmit={this.submit} />
+      </div>
+      
+    )
+  }
 }
+
+export default App;
