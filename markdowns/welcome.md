@@ -257,5 +257,5 @@ export default FormCode;
 ```
 Finally, our <b>Redux Form Validation Tutorial Example</b> From Scratch is over.
 
-@[Redux Form Validation Tutorial]({"stubs": ["src/index.tpl.html", "src/app/app.jsx", "src/main.js", "src/app/FormCode.js"], "command": "./run.sh"})
+@[Redux Form Validation Tutorial]({"stubs": ["src/index.tpl.html", "src/app/App.js", "src/main.js", "src/app/FormCode.js"], "command": "./run.sh"})
 
